@@ -9,7 +9,7 @@ echo "<html> <h1>Cloudnloud is in canada</h1>  </html>" > /var/www/html/index.ht
 
 Launch one AWS instance with aws command tools
 
-yum install http://dl.fedoraproject.org/pub/epel/7Server/x86_64/Packages/e/epel-release-7-11.noarch.rpm -y
+sudo yum install epel-release
 yum install python-pip awscli -y
 
 
