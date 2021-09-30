@@ -97,3 +97,14 @@ eksctl also creates the config file for _kubectl_. This means we can immediately
 ```
 kubectl get nodes
 ```
+ 
+ ## Delete EKS Cluster
+
+After your learning and handson completed,Delete cluster by using yaml config file:
+
+```bash
+eksctl delete cluster -f eks-course.yaml
+```
+ ## Refer the eks-deletion-output image in this same folder
+
+EKS-Cluster-Deletion.PNG
